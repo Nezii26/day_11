@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <table>
+
+        <h2>Item Details Form</h2>
+
+        <tr>
+            <td>ItemName</td>
+            <td><input type="text" id="txtName"></td>
+
+        </tr>
+
+        <tr>
+            <td>Quantity</td>
+            <td><input type="text" id="txtQun"></td>
+        </tr>
+
+        <tr>
+            <td>Price</td>
+            <td><input type="text" id="txtPrice"></td>
+        </tr>
+        <tr>
+
+            <td>Man.Date</td>
+            <td><input type="text" id="txtmaDate"></td>
+        </tr>
+        <tr>
+            <td>Exp.Date</td>
+            <td><input type="text" id="txtExpdate"></td>
+        </tr>
+
+
+        <br>
+
+        <tr>
+            <td></td>
+            <td>
+                <input type="button" value="Add" onclick="addItemOnAction()">
+                <input type="button" value="Update">
+                <input type="button" value="Search">
+                <input type="button" value="Delete">
+
+            </td>
+        </tr>
+
+
+    </table>
+    <br>
+
+    <button><a href="index.html">Go to Index</a></button><br>
+
+
+    <table id="tblItem" border="2"></table>
+
+    <script src="app.js"></script>
+
+
+
+</body>
+
+</html>
